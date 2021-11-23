@@ -4,134 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dorset Fashion</title>
-    <link rel="stylesheet" href="assets/css/resets.css">
-    <link rel="stylesheet" href="assets/css/hero-image.css">
-    <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/grid-3.css">
-    <link rel="stylesheet" href="assets/css/utils.css">
+    <title>Sample Web Page Title</title>
+    <meta name="description" content="Sample web page description goes here.">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<!-- Preload hero image -->
 
-      <!-- Font Awesome 5 icons -->
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+	<!-- Google Fonts -->
+
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
 
 </head>
 
-<body>
-        <!-- hero block -->
-        <header class="hero-block text-center">
 
-            <div class="hero-text-container">
-                <h1>Lorem Malesuada</h1>
-                <h2>Etiam tincidunt risus nec sollicitudin.</h2>
-            </div>
-    
+<body>
+
+    <!-- navigation menu -->
+    <nav></nav>
+
+    <!-- header -->
+    <header class="hero-block">
+        <div class="hero-text-container text-center-desktop text-center-mobile">
+            <h1 class="text-shadow">Hi, I'm Mary Smith. </h1>
+            <h2 class="text-shadow">I loves to build human-friendly interfaces.</h2>
+            <div class="container-btn">
+                
+                <a href="portfolio/index.html" class="btn btn-secondary"><i class="fas fa-file-code"></i><span>View my work</span></a>
+                <a href="contact/index.html" class="btn btn-primary"><i class="far fa-envelope"></i><span>Get in touch</span></a></div>
+        </div>
             <div class="hero-bg-media">
-                <img src="assets/img/pexels-freestocksorg-291762.jpg" alt="sample background image">   
+            <img src="assets/img/home-page-dark.jpg" alt="Home page">
             </div>
-    
-            <div class="bg-overlay"></div>
-    
-        </header>
-        <!-- /hero block -->
+        <div class="bg-overlay"></div>
+    </header>
+
+    <!-- main content with sections -->
+    <main>
         
-<main>
-    <article>
-    
-        <section class="container-flex"  >
-    
+
+
+        <section class="container-flex theme-one">
             <div class="col-1 text-center">
-                <h2>Lorem Malesuada Dolor</h2>
-                <p>Etiam tincidunt risus nec odio sollicitudin, non blandit ipsum facilisis class aptent.</p>
+                <h2>Recent projects</h2>
+                <h3>Below you can see some examples of my recent work. Check out my <a href="portfolio/index.html">complete portfolio.</a> </h3>
             </div>
     
             <div class="col-3">
-                <figure>
-                    <img src="assets/img/design-420x250.jpg" alt="Design">
-                </figure>
-    
-                <h3>Lorem ipsum dolo</h3>
-                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-                
-                <a href="#" class="btn btn-solid">
-                    <i class="far fa-arrow-circle-right"></i>Order Now
-                </a>
-            </div>
+                <figure><img src="assets/img/project-van-gogh.png" alt="Placeholder image"></figure>
+                <h3>Vincent ven Gogh</h3>
+                <p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video.</p>
+            <a href="portfolio/vincent-van-gagh/index.html" class="btn btn-primary btn-soft"><span>View project</span><i class="fas fa-arrow-circle-right"></i></a></div>
     
             <div class="col-3">
-                <figure>
-                    <img src="assets/img/woman-pink-420x250.jpg" alt="Woman pink">
-                </figure>
-    
-                <h3>Lorem ipsum dolo</h3>
-                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-    
-                <a href="#" class="btn btn-ghost">
-                    <i class="fas fa-shopping-cart"></i>Order Now
-                </a>
-            </div>
+                <figure><img src="assets/img/project-fashion.jpg" alt="Placeholder image"></figure>
+                <h3>Snazzy fasion</h3>
+                <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+            <a href="portfolio/fashion/index.html" class="btn btn-primary btn-soft"><span>View project</span><i class="fas fa-arrow-circle-right"></i></a></div>
     
             <div class="col-3">
-                <figure>
-                    <img src="assets/img/laptop-window-420x250.jpg" alt="Laptop window">
-                </figure>
-    
-                <h3>Lorem ipsum dolo</h3>
-                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-    
-                <a href="#" class="btn btn-ghost">
-                    <i class="fas fa-shopping-cart"></i>Order Now
-                </a>
-    
-            </div>
-    
-            <div class="col-3">
-                <figure>
-                    <img src="assets/img/food-420x250.jpg" alt="Food">
-                </figure>
-    
-                <h3>Lorem ipsum dolo</h3>
-                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-    
-                <a href="#" class="btn btn-solid btn-rounded">
-                    <i class="fas fa-shopping-cart"></i>Order Now
-                </a>
-            </div>
-    
-            <div class="col-3">
-                <figure>
-                    <img src="assets/img/kitchen-420x250.jpg" alt="Kitchen">
-                </figure>
-    
-                <h3>Lorem ipsum dolo</h3>
-                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-    
-                <a href="#" class="btn btn-ghost btn-rounded">
-                    <i class="fas fa-shopping-cart"></i>Order Now
-                </a>
-            </div>
-    
-            <div class="col-3">
-                <figure>
-                    <img src="assets/img/shop-420x250.jpg" alt="Shop">
-                </figure>
-    
-                <h3>Lorem ipsum dolo</h3>
-                <p>Lorem ipsum dolor sit amet voluptas. Consectetur adipisicing. Possimus dolores accusamus facilis fugiat. Vel, sit perferendis officia ad molestias optio.</p>
-    
-                <a href="#" class="btn btn-gradient btn-rounded">
-                    <i class="fas fa-shopping-cart"></i>Order Now
-                </a>
-            </div>
-                
+                <figure><img src="assets/img/project-smoothie.jpg" alt="Placeholder image"></figure><h3>Smooth Smoothies</h3><p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+            <a href="portfolio/" class="btn btn-primary btn-soft"><span>View project</span><i class="fas fa-arrow-circle-right"></i></a></div>
         </section>
-    
-    </article>
+
+
     </main>
-    
-     
+
+    <!-- footer -->
+    <footer></footer>
+   
 </body>
 </html>
